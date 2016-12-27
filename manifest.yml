@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: prueba-2-jota
+  host: prueba-2-jota
+  disk_quota: 1024M
+  services:
+  - prueba-2-jota-cloudantNoSQLDB
+  - prueba-2-jota-iotf-service
